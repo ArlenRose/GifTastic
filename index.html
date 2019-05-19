@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+    - header - jumbotron
+    -
+-->
+
+<head>
+    <title>Saturday Night Live</title>
+    <!-- bootstrap ----------------------------->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Style sheet  --------------------------->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- jQuery -------------------------------->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header / Jumbotron goes here -------------------------------------->
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-xs-12 col-md-4"></div>
+            <div class="col-xs-12 col-md-4">
+                <h1 style="color:antiquewhite;">Saturday Night Live</h1>
+            </div>
+            <div class="col-xs-12 col-md-4"></div>
+        </div>
+        <br>
+        <div class="row" id="buttonContainer"></div>
+             
+     <!-- Rendered buttons Get dumped Here --------------------------------->
+       
+        <div class="jumbotron row">
+            <form id="character-form">
+                <label for="character-input">Enter your favorite comedian here:</label>
+                
+                <input type="text" id="character-input">
+            </form>
+        </div>
+
+    <!-- Gifs Appear Here --------------------------------------------------->
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-10 " id="gifs-appear-here"></div>
+        </div>
+        <br>
+        
+    <!-- JavaScript link ---------------------------------------------------->
+    <script type="text/javascript" src="javascript.js">
+    </script>
+</body>
+
+</html>
